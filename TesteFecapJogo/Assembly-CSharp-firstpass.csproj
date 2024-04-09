@@ -849,6 +849,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Campfire.csproj">
+      <Project>{0D24AE8C-569A-75FD-A52B-2032646555A0}</Project>
+      <Name>Campfire</Name>
+    </ProjectReference>
+    <ProjectReference Include="Abiogenesis3d.Shared.csproj">
+      <Project>{717CF9F2-9AE4-9105-3BC5-7BF88F2F2E1A}</Project>
+      <Name>Abiogenesis3d.Shared</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

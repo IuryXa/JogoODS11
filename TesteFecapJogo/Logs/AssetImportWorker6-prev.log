@@ -15,7 +15,7 @@ C:/Users/iurym/Documents/GitHub/JogoODS11/TesteFecapJogo
 -logFile
 Logs/AssetImportWorker6.log
 -srvPort
-57474
+51204
 Successfully changed project path to: C:/Users/iurym/Documents/GitHub/JogoODS11/TesteFecapJogo
 C:/Users/iurym/Documents/GitHub/JogoODS11/TesteFecapJogo
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/iurym/Documents/GitHub/JogoODS11/TesteFecapJogo
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [19696] Host "[IP] 192.168.0.103 [Port] 0 [Flags] 2 [Guid] 3984475592 [EditorId] 3984475592 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-N2TD7GH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [27276] Host "[IP] 192.168.0.103 [Port] 0 [Flags] 2 [Guid] 1687066450 [EditorId] 1687066450 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-N2TD7GH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [19696] Host "[IP] 192.168.0.103 [Port] 0 [Flags] 2 [Guid] 3984475592 [EditorId] 3984475592 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-N2TD7GH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [27276] Host "[IP] 192.168.0.103 [Port] 0 [Flags] 2 [Guid] 1687066450 [EditorId] 1687066450 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-N2TD7GH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
-Refreshing native plugins compatible for Editor in 105.98 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 180.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.10f1 (ff3792e53c62)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56828
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56108
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.073214 seconds.
-- Loaded All Assemblies, in  2.001 seconds
+Registered in 0.061534 seconds.
+- Loaded All Assemblies, in  1.945 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.247 seconds
-Domain Reload Profiling: 3230ms
-	BeginReloadAssembly (665ms)
+- Finished resetting the current domain, in  1.107 seconds
+Domain Reload Profiling: 3030ms
+	BeginReloadAssembly (375ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (163ms)
-	RebuildNativeTypeToScriptingClass (74ms)
-	initialDomainReloadingComplete (384ms)
-	LoadAllAssembliesAndSetupDomain (696ms)
-		LoadAssemblies (658ms)
+		CreateAndSetChildDomain (3ms)
+	RebuildCommonClasses (174ms)
+	RebuildNativeTypeToScriptingClass (40ms)
+	initialDomainReloadingComplete (821ms)
+	LoadAllAssembliesAndSetupDomain (513ms)
+		LoadAssemblies (359ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (687ms)
-			TypeCache.Refresh (681ms)
-				TypeCache.ScanAssembly (617ms)
-			ScanForSourceGeneratedMonoScriptInfo (3ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (1248ms)
+		AnalyzeDomain (505ms)
+			TypeCache.Refresh (502ms)
+				TypeCache.ScanAssembly (469ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1108ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (996ms)
+		SetupLoadedEditorAssemblies (950ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (36ms)
-			SetLoadedEditorAssemblies (25ms)
+			InitializePlatformSupportModulesInManaged (61ms)
+			SetLoadedEditorAssemblies (38ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (8ms)
-			ProcessInitializeOnLoadAttributes (659ms)
-			ProcessInitializeOnLoadMethodAttributes (267ms)
+			BeforeProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (698ms)
+			ProcessInitializeOnLoadMethodAttributes (145ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -116,55 +116,55 @@ Domain Reload Profiling: 3230ms
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  5.434 seconds
-Refreshing native plugins compatible for Editor in 95.57 ms, found 3 plugins.
+- Loaded All Assemblies, in  9.174 seconds
+Refreshing native plugins compatible for Editor in 77.36 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  4.106 seconds
-Domain Reload Profiling: 9517ms
-	BeginReloadAssembly (434ms)
+- Finished resetting the current domain, in  3.910 seconds
+Domain Reload Profiling: 13071ms
+	BeginReloadAssembly (442ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (18ms)
+		DisableScriptedObjects (19ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (43ms)
-	RebuildCommonClasses (92ms)
-	RebuildNativeTypeToScriptingClass (26ms)
-	initialDomainReloadingComplete (142ms)
-	LoadAllAssembliesAndSetupDomain (4714ms)
-		LoadAssemblies (3529ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (97ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (195ms)
+	LoadAllAssembliesAndSetupDomain (8394ms)
+		LoadAssemblies (7327ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1446ms)
-			TypeCache.Refresh (827ms)
-				TypeCache.ScanAssembly (750ms)
-			ScanForSourceGeneratedMonoScriptInfo (521ms)
-			ResolveRequiredComponents (75ms)
-	FinalizeReload (4108ms)
+		AnalyzeDomain (1320ms)
+			TypeCache.Refresh (1129ms)
+				TypeCache.ScanAssembly (1024ms)
+			ScanForSourceGeneratedMonoScriptInfo (154ms)
+			ResolveRequiredComponents (33ms)
+	FinalizeReload (3912ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (3150ms)
+		SetupLoadedEditorAssemblies (3415ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (40ms)
-			SetLoadedEditorAssemblies (11ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (10ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (348ms)
-			ProcessInitializeOnLoadAttributes (1997ms)
-			ProcessInitializeOnLoadMethodAttributes (691ms)
-			AfterProcessingInitializeOnLoad (62ms)
+			BeforeProcessingInitializeOnLoad (248ms)
+			ProcessInitializeOnLoadAttributes (2597ms)
+			ProcessInitializeOnLoadMethodAttributes (503ms)
+			AfterProcessingInitializeOnLoad (37ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (29ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.42 seconds
-Refreshing native plugins compatible for Editor in 36.49 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (21ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.45 seconds
+Refreshing native plugins compatible for Editor in 69.84 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4222 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 70 unused Assets / (72.3 KB). Loaded Objects now: 4662.
-Memory consumption went from 140.7 MB to 140.6 MB.
-Total: 35.027916 ms (FindLiveObjects: 1.385022 ms CreateObjectMapping: 2.166267 ms MarkObjects: 31.178404 ms  DeleteObjects: 0.289422 ms)
+Unloading 4227 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (72.4 KB). Loaded Objects now: 4674.
+Memory consumption went from 144.1 MB to 144.0 MB.
+Total: 15.765691 ms (FindLiveObjects: 0.527511 ms CreateObjectMapping: 0.251289 ms MarkObjects: 14.701869 ms  DeleteObjects: 0.277200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -181,140 +181,100 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 175939.160089 seconds.
-  path: Assets/POLYGON city pack/Materials/Material_meshs/can_lemon.mat
-  artifactKey: Guid(360f43e7e5fa9a744af7932cd721572b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYGON city pack/Materials/Material_meshs/can_lemon.mat using Guid(360f43e7e5fa9a744af7932cd721572b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5633bdd72b8395ec3a22943ef395e9b') in 0.688333 seconds
+  Time since last request: 250128.059810 seconds.
+  path: Assets/Dry_Trees/Model/Dry4195.FBX
+  artifactKey: Guid(750f8f30b2708f64f86e0a9176d9d7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dry_Trees/Model/Dry4195.FBX using Guid(750f8f30b2708f64f86e0a9176d9d7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8d0bfb48fc1b2138cb577e7a9b43a14') in 0.487507 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 28
 ========================================================================
 Received Import Request.
-  Time since last request: 1.121359 seconds.
-  path: Assets/POLYGON city pack/Materials/Material_meshs/Sideway.mat
-  artifactKey: Guid(ade4d9b3b14d5b045884be40b327deb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYGON city pack/Materials/Material_meshs/Sideway.mat using Guid(ade4d9b3b14d5b045884be40b327deb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b78e6facda0426c81f6ad94fd0de42f') in 0.181146 seconds
+  Time since last request: 0.000042 seconds.
+  path: Assets/Dry_Trees/Model/Dry4910.FBX
+  artifactKey: Guid(392ccefdc43e68245b2b50fd1e5cd507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dry_Trees/Model/Dry4910.FBX using Guid(392ccefdc43e68245b2b50fd1e5cd507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '825be34be450c0a093c70b31ab463b78') in 0.335609 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 28
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000127 seconds.
-  path: Assets/POLYGON city pack/Materials/Material_meshs/Sign_slow.mat
-  artifactKey: Guid(375db1c03c0a2594185895a66be6ce0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYGON city pack/Materials/Material_meshs/Sign_slow.mat using Guid(375db1c03c0a2594185895a66be6ce0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f43b418e3d89b6f48f417d2509a5f2d') in 0.159983 seconds
+  Time since last request: 0.000058 seconds.
+  path: Assets/Dry_Trees/Model/Dry6524.FBX
+  artifactKey: Guid(5736b0f1a73af4a4581db8226d31045c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dry_Trees/Model/Dry6524.FBX using Guid(5736b0f1a73af4a4581db8226d31045c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e31102840d0f37b54a6e8aa85b0a57d') in 0.240852 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 28
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/POLYGON city pack/Materials/Material_meshs/Sign_speed_ 70.mat
-  artifactKey: Guid(d22294ef304578243b15ec1189c98625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYGON city pack/Materials/Material_meshs/Sign_speed_ 70.mat using Guid(d22294ef304578243b15ec1189c98625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '926741f36b6e3c0d7dcf16b123a24787') in 0.112111 seconds
+  Time since last request: 0.000032 seconds.
+  path: Assets/Dry_Trees/Model/Dry8872.FBX
+  artifactKey: Guid(9d9a2868cd321ba4a90fb64be4b73abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dry_Trees/Model/Dry8872.FBX using Guid(9d9a2868cd321ba4a90fb64be4b73abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6633c3fa522f28e29282cb3b7d858e3b') in 0.150996 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 28
 ========================================================================
 Received Import Request.
-  Time since last request: 0.557775 seconds.
-  path: Assets/POLYGON city pack/Materials/Material_meshs/Sign_speed_100.mat
-  artifactKey: Guid(a4a40e7c355f38a4881ec26872523781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYGON city pack/Materials/Material_meshs/Sign_speed_100.mat using Guid(a4a40e7c355f38a4881ec26872523781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dda715dbcafa4ca185568d0c0c2e34f') in 0.341055 seconds
+  Time since last request: 74.025530 seconds.
+  path: Assets/Dry_Trees/Prefab/Dry4195.prefab
+  artifactKey: Guid(f2e54234007ec4543b62fd7788bcd725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dry_Trees/Prefab/Dry4195.prefab using Guid(f2e54234007ec4543b62fd7788bcd725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76a731c6413b15651d79b56dc3ca2851') in 0.102023 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 30
 ========================================================================
 Received Import Request.
-  Time since last request: 0.325517 seconds.
-  path: Assets/POLYGON city pack/Materials/Material_meshs/street 4.mat
-  artifactKey: Guid(e392b3db3896de742a7fe9186046092b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYGON city pack/Materials/Material_meshs/street 4.mat using Guid(e392b3db3896de742a7fe9186046092b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '565146631744b6dd49383d8a662b4703') in 0.233876 seconds
+  Time since last request: 0.000029 seconds.
+  path: Assets/Dry_Trees/Prefab/Dry4910.prefab
+  artifactKey: Guid(5fbfb820b09a96f47a16dc79c8539ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dry_Trees/Prefab/Dry4910.prefab using Guid(5fbfb820b09a96f47a16dc79c8539ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b83172a23a94ee9e49bff52dd3b14eaa') in 0.030862 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Dry_Trees/Prefab/Dry6524.prefab
+  artifactKey: Guid(6905bfb07dfcac5489e6daf8e7babe92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dry_Trees/Prefab/Dry6524.prefab using Guid(6905bfb07dfcac5489e6daf8e7babe92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e554e46193d1a3912e12ad2ad5bdd1d9') in 0.035053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
 ========================================================================
 Received Import Request.
   Time since last request: 0.000030 seconds.
-  path: Assets/POLYGON city pack/Materials/Material_meshs/street 8.mat
-  artifactKey: Guid(f66625c0d638e4441aad72b0e59126c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYGON city pack/Materials/Material_meshs/street 8.mat using Guid(f66625c0d638e4441aad72b0e59126c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afa6e75cb44dd2ef7ef20ebe43335e83') in 0.296096 seconds
+  path: Assets/Dry_Trees/Prefab/Dry7509.prefab
+  artifactKey: Guid(0603828da9221ca4a9a54954ff8842ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dry_Trees/Prefab/Dry7509.prefab using Guid(0603828da9221ca4a9a54954ff8842ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b29e613945dfffce8212050b6b357eef') in 0.035599 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 30
 ========================================================================
 Received Import Request.
-  Time since last request: 0.304727 seconds.
-  path: Assets/POLYGON city pack/Materials/Material_meshs/street 14.mat
-  artifactKey: Guid(cfe19b994291bef4da4b615db64ccdb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYGON city pack/Materials/Material_meshs/street 14.mat using Guid(cfe19b994291bef4da4b615db64ccdb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26a28f0fc2c7b4738d57d291d3f93e19') in 0.247856 seconds
+  Time since last request: 736.250506 seconds.
+  path: Assets/Dry_Trees/Model/Dry4195.FBX
+  artifactKey: Guid(750f8f30b2708f64f86e0a9176d9d7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dry_Trees/Model/Dry4195.FBX using Guid(750f8f30b2708f64f86e0a9176d9d7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40b04fe4602f8e569a97466abc9cf710') in 1.140532 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 28
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/POLYGON city pack/Materials/Material_meshs/street 20.mat
-  artifactKey: Guid(366292c81715a0f47be66ba182a84b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYGON city pack/Materials/Material_meshs/street 20.mat using Guid(366292c81715a0f47be66ba182a84b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73933a3ecb6155184578e81398844b36') in 0.171351 seconds
+  Time since last request: 0.002588 seconds.
+  path: Assets/Dry_Trees/Model/Dry4910.FBX
+  artifactKey: Guid(392ccefdc43e68245b2b50fd1e5cd507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dry_Trees/Model/Dry4910.FBX using Guid(392ccefdc43e68245b2b50fd1e5cd507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acabf09413be0bec7d956556a66ebb23') in 0.534240 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 28
 ========================================================================
 Received Import Request.
-  Time since last request: 0.065538 seconds.
-  path: Assets/POLYGON city pack/Materials/Material_meshs/supermarket.mat
-  artifactKey: Guid(5a982ead24f664e4d869d95ef387a770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYGON city pack/Materials/Material_meshs/supermarket.mat using Guid(5a982ead24f664e4d869d95ef387a770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9257cfc67e1b235d6c843c1c35fd382') in 0.202056 seconds
+  Time since last request: 0.003585 seconds.
+  path: Assets/Dry_Trees/Model/Dry6524.FBX
+  artifactKey: Guid(5736b0f1a73af4a4581db8226d31045c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dry_Trees/Model/Dry6524.FBX using Guid(5736b0f1a73af4a4581db8226d31045c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8072c0cadbb3b5d29d4d339eee64879') in 0.716211 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 28
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/POLYGON city pack/Materials/Material_meshs/Traffic_pot.mat
-  artifactKey: Guid(852f302bfbd276b4da26b146e0b54fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYGON city pack/Materials/Material_meshs/Traffic_pot.mat using Guid(852f302bfbd276b4da26b146e0b54fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9abfb13d56a1d74d74f29cc2e99447ae') in 0.096195 seconds
+  Time since last request: 0.001577 seconds.
+  path: Assets/Dry_Trees/Model/Dry8872.FBX
+  artifactKey: Guid(9d9a2868cd321ba4a90fb64be4b73abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dry_Trees/Model/Dry8872.FBX using Guid(9d9a2868cd321ba4a90fb64be4b73abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa1f12fa04d7b0a33a27342abe10fd50') in 0.366155 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.443259 seconds.
-  path: Assets/POLYGON city pack/Materials/Material_meshs/wood pot.mat
-  artifactKey: Guid(4ab9b41d9d99ce346be37a4aaa2c5c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYGON city pack/Materials/Material_meshs/wood pot.mat using Guid(4ab9b41d9d99ce346be37a4aaa2c5c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fad3feccc79de5a5486cb05ae8b3b747') in 0.106366 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 46.649870 seconds.
-  path: Assets/SpaceZeta_StreetLamps2/Materials/M_StreetLampRound1B.mat
-  artifactKey: Guid(b68ad0ddbe075d2469a914b975c596f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpaceZeta_StreetLamps2/Materials/M_StreetLampRound1B.mat using Guid(b68ad0ddbe075d2469a914b975c596f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fce67f58a5604a6ecfe40653b061aea') in 0.915809 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/SpaceZeta_StreetLamps2/Materials/T_StreetLampRound2A_emission.png
-  artifactKey: Guid(b2de4470d1734c742994ba3371e767b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpaceZeta_StreetLamps2/Materials/T_StreetLampRound2A_emission.png using Guid(b2de4470d1734c742994ba3371e767b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e71eb722a6ff2d999f71cbc4eb8f4f1f') in 0.114057 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/SpaceZeta_StreetLamps2/Materials/T_StreetLampRound2B_metallic.png
-  artifactKey: Guid(d110414fcaeb3c046a0794262e059328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpaceZeta_StreetLamps2/Materials/T_StreetLampRound2B_metallic.png using Guid(d110414fcaeb3c046a0794262e059328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7297185f57e1061855a5db1d8e007cf') in 0.367133 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000495 seconds.
-  path: Assets/SpaceZeta_StreetLamps2/Materials/T_StreetLampRound2B_basecolor.png
-  artifactKey: Guid(b912bad4c1a18e640840c82eea4ee187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpaceZeta_StreetLamps2/Materials/T_StreetLampRound2B_basecolor.png using Guid(b912bad4c1a18e640840c82eea4ee187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46e0ecf8e64392d9beb9921e6d8205bb') in 0.164374 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/SpaceZeta_StreetLamps2/Materials/T_StreetLampRound1B_emission.png
-  artifactKey: Guid(39bc3c1ef5b16bf4d82a13bb05c37195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpaceZeta_StreetLamps2/Materials/T_StreetLampRound1B_emission.png using Guid(39bc3c1ef5b16bf4d82a13bb05c37195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d337a0c0e30276fbcba221880eaae2') in 0.349837 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 28
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: A operação de E/S foi anulada devido a uma saída de thread ou a uma requisição de aplicativo.
 AssetImportWorker is now disconnected from the server
