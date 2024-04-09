@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\iurym\\Documents\\GitHub\\JogoODS11\\TesteFecapJogo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2F2E66EC-16D7-CB6B-00C3-AA38E3CEAFA3}|Assembly-CSharp-firstpass.csproj|c:\\users\\iurym\\documents\\github\\jogoods11\\testefecapjogo\\assets\\standard assets\\effects\\imageeffects\\scripts\\colorcorrectioncurves.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F2E66EC-16D7-CB6B-00C3-AA38E3CEAFA3}|Assembly-CSharp-firstpass.csproj|solutionrelative:assets\\standard assets\\effects\\imageeffects\\scripts\\colorcorrectioncurves.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B7FE1318-BF7A-7461-DC48-A6BB3D97F545}|Assembly-CSharp.csproj|c:\\users\\iurym\\documents\\github\\jogoods11\\testefecapjogo\\assets\\script\\numbergenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B7FE1318-BF7A-7461-DC48-A6BB3D97F545}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\numbergenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7FE1318-BF7A-7461-DC48-A6BB3D97F545}|Assembly-CSharp.csproj|c:\\users\\iurym\\documents\\github\\jogoods11\\testefecapjogo\\assets\\script\\interactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7FE1318-BF7A-7461-DC48-A6BB3D97F545}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\interactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7FE1318-BF7A-7461-DC48-A6BB3D97F545}|Assembly-CSharp.csproj|C:\\Users\\iurym\\Documents\\GitHub\\JogoODS11\\TesteFecapJogo\\assets\\script\\sc_fpscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7FE1318-BF7A-7461-DC48-A6BB3D97F545}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\sc_fpscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +23,28 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "NumberGenerator.cs",
-              "DocumentMoniker": "C:\\Users\\iurym\\Documents\\GitHub\\JogoODS11\\TesteFecapJogo\\Assets\\Script\\NumberGenerator.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\NumberGenerator.cs",
-              "ToolTip": "C:\\Users\\iurym\\Documents\\GitHub\\JogoODS11\\TesteFecapJogo\\Assets\\Script\\NumberGenerator.cs*",
-              "RelativeToolTip": "Assets\\Script\\NumberGenerator.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAEAAAA",
+              "Title": "ColorCorrectionCurves.cs",
+              "DocumentMoniker": "C:\\Users\\iurym\\Documents\\GitHub\\JogoODS11\\TesteFecapJogo\\Assets\\Standard Assets\\Effects\\ImageEffects\\Scripts\\ColorCorrectionCurves.cs",
+              "RelativeDocumentMoniker": "Assets\\Standard Assets\\Effects\\ImageEffects\\Scripts\\ColorCorrectionCurves.cs",
+              "ToolTip": "C:\\Users\\iurym\\Documents\\GitHub\\JogoODS11\\TesteFecapJogo\\Assets\\Standard Assets\\Effects\\ImageEffects\\Scripts\\ColorCorrectionCurves.cs",
+              "RelativeToolTip": "Assets\\Standard Assets\\Effects\\ImageEffects\\Scripts\\ColorCorrectionCurves.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T22:02:02Z",
+              "WhenOpened": "2024-04-08T22:36:38.372Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Interactor.cs",
-              "DocumentMoniker": "C:\\Users\\iurym\\Documents\\GitHub\\JogoODS11\\TesteFecapJogo\\Assets\\Script\\Interactor.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Interactor.cs",
-              "ToolTip": "C:\\Users\\iurym\\Documents\\GitHub\\JogoODS11\\TesteFecapJogo\\Assets\\Script\\Interactor.cs",
-              "RelativeToolTip": "Assets\\Script\\Interactor.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAXAAAA",
+              "Title": "NumberGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\iurym\\Documents\\GitHub\\JogoODS11\\TesteFecapJogo\\Assets\\Script\\NumberGenerator.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\NumberGenerator.cs",
+              "ToolTip": "C:\\Users\\iurym\\Documents\\GitHub\\JogoODS11\\TesteFecapJogo\\Assets\\Script\\NumberGenerator.cs",
+              "RelativeToolTip": "Assets\\Script\\NumberGenerator.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T21:50:10.1Z",
+              "WhenOpened": "2024-04-05T22:02:02Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SC_FPSController.cs",
-              "DocumentMoniker": "C:\\Users\\iurym\\Documents\\GitHub\\JogoODS11\\TesteFecapJogo\\Assets\\Script\\SC_FPSController.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\SC_FPSController.cs",
-              "ToolTip": "C:\\Users\\iurym\\Documents\\GitHub\\JogoODS11\\TesteFecapJogo\\Assets\\Script\\SC_FPSController.cs",
-              "RelativeToolTip": "Assets\\Script\\SC_FPSController.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAAAEkAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T21:41:18.878Z"
             }
           ]
         }
