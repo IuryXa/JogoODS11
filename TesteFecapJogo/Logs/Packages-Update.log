@@ -58,3 +58,13 @@ The following packages were added:
   com.unity.test-framework@1.1.33
   com.unity.xr.legacyinputhelpers@2.1.10
   com.unity.ai.navigation@1.1.4
+
+=== Fri Apr 19 08:51:38 2024
+
+Packages were changed.
+Update Mode: mergeDefaultDependencies
+
+The following packages were added:
+  com.unity.animation.rigging@1.2.1
+The following packages were updated:
+  com.unity.ai.navigation from version 1.1.4 to 1.1.5
