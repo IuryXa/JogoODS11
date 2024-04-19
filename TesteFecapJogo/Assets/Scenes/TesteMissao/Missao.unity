@@ -293,9 +293,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e21871890e97b64dbeea859b86ea79a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogoBox: {fileID: 0}
-  dialogo: {fileID: 0}
-  nome: {fileID: 0}
+  dialogoBox: {fileID: 48450002}
+  dialogo: {fileID: 584949894}
+  nomeNPC: 
+  nome: {fileID: 57377283}
   dialogoatual:
   - "Ol\xE1"
   - Tudo bem?
