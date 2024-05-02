@@ -168,7 +168,6 @@ GameObject:
   - component: {fileID: 47052157}
   - component: {fileID: 47052156}
   - component: {fileID: 47052155}
-  - component: {fileID: 47052160}
   m_Layer: 0
   m_Name: NPC
   m_TagString: Untagged
@@ -190,8 +189,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   quest: {fileID: 1714828202}
   trackProgresso: 0
-  textoObjetivoMissao: 
-  objetivoFinalMissaoInte: 0
+  textoObjetivoMissao: Colete 2 sacos de lixo
+  objetivoFinalMissaoInte: 2
 --- !u!136 &47052156
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -281,27 +280,6 @@ Transform:
   - {fileID: 48450003}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &47052160
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 47052154}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2e21871890e97b64dbeea859b86ea79a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogoBox: {fileID: 48450002}
-  dialogo: {fileID: 584949894}
-  nomeNPC: 
-  nome: {fileID: 57377283}
-  dialogoatual:
-  - "Ol\xE1"
-  - Tudo bem?
-  numeroDeDialogos: 0
-  dialogoFinal: 0
 --- !u!1 &48450002
 GameObject:
   m_ObjectHideFlags: 0
@@ -587,9 +565,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 199fad2020c928f428addf7475ab1979, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  missao: {fileID: 1714828202}
   coleta: {fileID: 47052155}
-  coletavel: {fileID: 72805510}
 --- !u!135 &72805513
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1156,9 +1132,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 199fad2020c928f428addf7475ab1979, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  missao: {fileID: 1714828202}
   coleta: {fileID: 47052155}
-  coletavel: {fileID: 251278192}
 --- !u!135 &251278195
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1996,9 +1970,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 199fad2020c928f428addf7475ab1979, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  missao: {fileID: 1714828202}
   coleta: {fileID: 47052155}
-  coletavel: {fileID: 757395537}
 --- !u!135 &757395540
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2334,8 +2306,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22442f99308ed4242b51a80fce998420, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  InteractorSource: {fileID: 1061848703}
-  InteractRange: 5
 --- !u!81 &1061848705
 AudioListener:
   m_ObjectHideFlags: 0
@@ -2913,7 +2883,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1460171527}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2977085dec8c9e242a9d46565006feb6, type: 3}
   m_Name: 

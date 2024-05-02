@@ -12,12 +12,15 @@ public class PROPRIEDADES_JOGADOR : MonoBehaviour
 
     public float dinheiro = 120;
 
-    private static GameObject TELA;
+    public static GameObject TELA;
+    public static GameObject TELA_CONVERSA;
 
     // Update is called once per frame
     void Start()
     {
-        TELA = GameObject.Find("Canvas");
+        TELA = GameObject.Find("ATRIBUTOS");
+        TELA_CONVERSA = GameObject.Find("DIALOGO");
+        TELA_CONVERSA.SetActive(false);
     }
 
     void Update()
@@ -41,6 +44,7 @@ public class PROPRIEDADES_JOGADOR : MonoBehaviour
         {
             ATRIBUTOSNATELA();
         }
+       
 
     }
     public void ATRIBUTOS_TEMPO()
@@ -57,4 +61,6 @@ public class PROPRIEDADES_JOGADOR : MonoBehaviour
         GameObject.Find("PREENCHIMENTO_ENERGIA").GetComponent<RectTransform>().localPosition = new Vector3(0f, (energia / 100.0f) * 100 - 100, 0f);
 
     }
+
+
 }
