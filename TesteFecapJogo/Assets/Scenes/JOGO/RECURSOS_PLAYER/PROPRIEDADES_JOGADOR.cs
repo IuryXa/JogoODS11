@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using System;
 
 public class PROPRIEDADES_JOGADOR : MonoBehaviour
 {
@@ -15,6 +16,9 @@ public class PROPRIEDADES_JOGADOR : MonoBehaviour
     public static GameObject TELA;
     public static GameObject TELA_CONVERSA;
 
+    private float inposto = 100;
+    private float tempoParaPagarImposto = 200;
+
     // Update is called once per frame
     void Start()
     {
@@ -26,6 +30,7 @@ public class PROPRIEDADES_JOGADOR : MonoBehaviour
     void Update()
     {
         ATRIBUTOS_TEMPO();
+        Imposto();
 
         if (Input.GetKeyDown(KeyCode.Q))
         {
@@ -47,6 +52,17 @@ public class PROPRIEDADES_JOGADOR : MonoBehaviour
        
 
     }
+
+    private void Imposto ()
+    {
+        if(Time.time > tempoParaPagarImposto)
+        {
+            tempoParaPagarImposto += Time.time;
+            dinheiro -= 100;
+            Debug.Log($"O tempo passou e tá na hora de pagar 100 Reals, você ficou com {dinheiro}");
+        }
+    }
+
     public void ATRIBUTOS_TEMPO()
     {
         fome -= Time.deltaTime * (50f / 300f);

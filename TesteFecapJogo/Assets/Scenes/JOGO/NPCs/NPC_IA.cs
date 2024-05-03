@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using Unity.VisualScripting;
 public class NPC_IA : MonoBehaviour, IInteractable
 {
 
@@ -12,6 +13,7 @@ public class NPC_IA : MonoBehaviour, IInteractable
 
     public string[] dialogo = new string[3];
     public string[] falante = new string[3];
+    public bool temMissao;
 
     private TMP_Text Falante;
     private TMP_Text Conversa;

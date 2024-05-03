@@ -13,9 +13,10 @@ public class Economia : MonoBehaviour, IInteractable
     public float sedeRestaura; //Quanto da barra de sede o produto vai encher
     public TMP_Text titulo;
     public TMP_Text Descricao;
-
     public GameObject Compra;
     public PROPRIEDADES_JOGADOR PROPRIEDADES_JOGADOR;
+
+
     private bool estaNoMenu = false;
 
     void Start()
@@ -40,6 +41,7 @@ public class Economia : MonoBehaviour, IInteractable
             estaNoMenu = false;
         }
     }
+
 
     public void Interact()
     {

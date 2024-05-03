@@ -17,19 +17,21 @@ public class Coletou : MonoBehaviour, IInteractable
     }
     public void Interact()
     {
-        //Coleta de Lixo
+        //Coleta de Lixo e Limpeza das Ruas
         if (missao.objetivoFinalMissao[0] > 0 && idMissao == SistemaNPC.idMissao && SistemaNPC.selecionarOqueFazer == 0)
         {
             missao.tipoMissaoAtual = SistemaNPC.tipoMissao;
             this.gameObject.SetActive(false);
             SistemaNPC.Coletou();
         }
+        else
         if (missao.objetivoFinalMissao[1] > 0 && idMissao == SistemaNPCSecundario.idMissao && SistemaNPCSecundario.selecionarOqueFazer == 0)
         {
             missao.tipoMissaoAtual = SistemaNPCSecundario.tipoMissao;
             this.gameObject.SetActive(false);
             SistemaNPCSecundario.Coletou();
         }
+        else
         //Arborização
         if (missao.objetivoFinalMissao[0] > 0 && idMissao == SistemaNPC.idMissao && SistemaNPC.selecionarOqueFazer == 1)
         {
@@ -37,24 +39,20 @@ public class Coletou : MonoBehaviour, IInteractable
             Arvore.SetActive(true);
             SistemaNPC.Coletou();
         }
+        else
         if (missao.objetivoFinalMissao[1] > 0 && idMissao == SistemaNPCSecundario.idMissao && SistemaNPCSecundario.selecionarOqueFazer == 1)
         {
             missao.tipoMissaoAtual = SistemaNPCSecundario.tipoMissao;
             Arvore.SetActive(true);
             SistemaNPCSecundario.Coletou();
         }
-        //Varrer as ruas
+        else
+        //Conversar com NPCS
         if (missao.objetivoFinalMissao[0] > 0 && idMissao == SistemaNPC.idMissao && SistemaNPC.selecionarOqueFazer == 2)
         {
             missao.tipoMissaoAtual = SistemaNPC.tipoMissao;
-            this.gameObject.SetActive(false);
             SistemaNPC.Coletou();
         }
-        if (missao.objetivoFinalMissao[1] > 0 && idMissao == SistemaNPCSecundario.idMissao && SistemaNPCSecundario.selecionarOqueFazer == 2)
-        {
-            missao.tipoMissaoAtual = SistemaNPCSecundario.tipoMissao;
-            this.gameObject.SetActive(false);
-            SistemaNPCSecundario.Coletou();
-        }
+
     }
 }

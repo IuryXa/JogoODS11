@@ -13,6 +13,7 @@ public class SistemaNPCPrincipal : MonoBehaviour, IInteractable
     public int idMissao; //Usado para identificar e diferenciar missões 
     public int tipoMissao = 0; //(0) é para missões principais e (1) é para missões secundarias
     public int selecionarOqueFazer;
+    public float tempoParaOFinal;
     //"Coleta de Lixo", "Arborização", "Varrer as ruas", "Desentupir boeiros"
     public bool comecouPrincipal = false;
 
@@ -44,6 +45,7 @@ public class SistemaNPCPrincipal : MonoBehaviour, IInteractable
 
     private void Interagiu()
     {
+        quest.tempoParaFinal = tempoParaOFinal;
         quest.dinheiro[tipoMissao] = dinheiroMissao;
         quest.textoTituloMissao[tipoMissao] = tituloMissao;
         quest.tipoMissaoAtual = tipoMissao;
